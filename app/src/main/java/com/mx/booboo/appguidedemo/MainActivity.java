@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
 
     private MediaPlayer mPlayer;
 
-    private String Path= Environment.getExternalStorageDirectory().getPath()+"/1.mp4";
+    private String Path= Environment.getExternalStorageDirectory().getPath()+"/mp/1.mp4";
     private SurfaceView mSurfaceView1;
     private SurfaceView mSurfaceView2;
     private SurfaceView mSurfaceView3;
@@ -115,12 +115,12 @@ context.getClass().getClassLoader().getResourceAsStream("assets/"+资源名);
         mPlayer.setLooping(true);
 
         if(mHolder1.equals(holder)){
-            Path=Environment.getExternalStorageDirectory().getPath()+"/1.mp4";
+            Path=Environment.getExternalStorageDirectory().getPath()+"/mp/1.mp4";
         }
         if(mHolder2.equals(holder)){
-            Path=Environment.getExternalStorageDirectory().getPath()+"/2.mp4";
+            Path=Environment.getExternalStorageDirectory().getPath()+"/mp/2.mp4";
         }if(mHolder3.equals(holder)){
-            Path=Environment.getExternalStorageDirectory().getPath()+"/3.mp4";
+            Path=Environment.getExternalStorageDirectory().getPath()+"/mp/3.mp4";
         }
 
 
